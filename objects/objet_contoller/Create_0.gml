@@ -3,7 +3,7 @@
 
 
 p1 = instance_create_layer(room_width/2 -100,220,"Instances_1",ryu)
-p2 = instance_create_layer(room_width/2 +100,220,"Instances_2",obj_enemiy)
+p2 = instance_create_layer(room_width/2 +100,220,"Instances_1",obj_enemiy)
 p2.image_xscale=-1
 p2.controller=CONT_P2
 p1.opponent =p2
